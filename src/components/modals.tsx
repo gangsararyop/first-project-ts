@@ -8,7 +8,7 @@ type Props = {
 
 const Modals: FunctionComponent<Props> = ({ open, close, children }) => {
   return (
-    <Transition appear show={open} as={Fragment}>
+    <Transition show={open} as={Fragment}>
       <Dialog as="div" className="fixed inset-0 z-10" onClose={close}>
         <div className="flex items-end justify-center min-h-screen">
           <Transition.Child

@@ -38,9 +38,9 @@ const Detail: NextPage<
               <path
                 d="m15 6-6 6m0 0 6 6m-6-6h39"
                 stroke="#5A5A5A"
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </button>
@@ -59,16 +59,16 @@ const Detail: NextPage<
             <path
               d="M19.727 20.447c-.455-1.276-1.46-2.403-2.857-3.207C15.473 16.436 13.761 16 12 16c-1.761 0-3.473.436-4.87 1.24-1.397.804-2.402 1.931-2.857 3.207"
               stroke="#fff"
-              stroke-width="1.4"
-              stroke-linecap="round"
+              strokeWidth="1.4"
+              strokeLinecap="round"
             />
             <circle
               cx="12"
               cy="8"
               r="4"
               stroke="#fff"
-              stroke-width="1.4"
-              stroke-linecap="round"
+              strokeWidth="1.4"
+              strokeLinecap="round"
             />
           </svg>
         </div>

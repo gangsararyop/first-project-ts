@@ -78,7 +78,7 @@ const Home: NextPage<DataFirebase> = (props: DataFirebase) => {
 
             <tbody className="text-gray-700 font-semibold text-xs">
               {props.dataEmployee.map((el, index) => (
-                <tr className="border-b last:border-none">
+                <tr key={index} className="border-b last:border-none">
                   <td className="py-4 px-5">{index + 1}</td>
                   <td className="py-4 px-5">{el.name}</td>
                   <td className="py-4 px-5">{el.nip}</td>
@@ -102,8 +102,8 @@ const Home: NextPage<DataFirebase> = (props: DataFirebase) => {
                         <path
                           d="M6.667 10V8M9.333 10V8M2 4.667h12v0a2 2 0 0 0-2 2v4.666a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6.666a2 2 0 0 0-2-2v0zM6.712 2.247c.076-.07.243-.133.476-.178C7.421 2.024 7.706 2 8 2c.293 0 .579.024.812.069.232.045.4.107.476.178"
                           stroke="#B24629"
-                          stroke-width="1.4"
-                          stroke-linecap="round"
+                          strokeWidth="1.4"
+                          strokeLinecap="round"
                         />
                       </svg>
                     </button>
